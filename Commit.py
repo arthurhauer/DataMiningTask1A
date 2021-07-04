@@ -44,7 +44,7 @@ class Commit:
         message = row[message_column_base_index].lower()
         self.bug = any(key in message for key in bug_keywords)
         self.merge = any(key in message for key in merge_keywords)
-        self.tamanho_descricao = 0 if self.merge else len(descricao)
+        self.tamanho_descricao = 0 if self.merge else len(descricao) + len(message)
 
     @staticmethod
     def get_csv_headers() -> List[str]:
