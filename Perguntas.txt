@@ -1,0 +1,4 @@
+Perguntas:
+	Existe algum dia da semana em que ocorrem mais bugs?
+	Existe algum desenvolvedor que faz mais commits que outros?
+	Existe algum projeto que tem mais bugs que outros?
